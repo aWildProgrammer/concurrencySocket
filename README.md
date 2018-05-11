@@ -1,0 +1,2 @@
+# concurrencySocket
+超轻量级SOCKET连接池实现PHP非阻塞并发套接字
