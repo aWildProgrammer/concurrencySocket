@@ -13,6 +13,7 @@ $this -> init();
 
 测试每秒发送30万条数据，有大约万分之一的几率会出现粘包，为了避免此问题，在sendMessage()函数中加入延时100微秒：
 
+```
 // 调用示例：
 $scs = new concurrencySocket;
 
@@ -25,3 +26,4 @@ while(1) {
     }
     sleep(1);
 }
+```
